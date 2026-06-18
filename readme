@@ -1,0 +1,120 @@
+# Credit Card Fraud Detection using Unsupervised Machine Learning
+
+## Overview
+
+This project detects fraudulent credit card transactions using anomaly detection techniques without relying on labels during training.
+
+The model learns normal transaction patterns and identifies unusual transactions as potential fraud.
+
+---
+
+## Dataset
+
+- European credit card transactions
+- 284,807 transactions
+- Highly imbalanced dataset
+
+---
+
+## Features
+
+- Data preprocessing
+- Exploratory Data Analysis
+- Feature scaling
+- Isolation Forest
+- Anomaly detection
+- Performance evaluation
+- Risk scoring
+
+---
+
+## Technologies
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-Learn
+
+Matplotlib
+
+Seaborn
+
+---
+
+## Machine Learning Workflow
+
+Data Collection
+
+↓
+
+Data Cleaning
+
+↓
+
+EDA
+
+↓
+
+Feature Scaling
+
+↓
+
+Isolation Forest
+
+↓
+
+Anomaly Detection
+
+↓
+
+Evaluation
+
+---
+
+## Evaluation Metrics
+
+Precision
+
+Recall
+
+F1 Score
+
+ROC-AUC
+
+Confusion Matrix
+
+---
+
+## Results
+
+The Isolation Forest model successfully identified anomalous transactions while handling severe class imbalance.
+
+---
+
+## Future Improvements
+
+- Local Outlier Factor
+- Autoencoder
+- Ensemble anomaly detection
+- Real-time fraud detection
+
+---
+
+## Installation
+
+pip install -r requirements.txt
+
+---
+
+## Run
+
+Open the Jupyter notebook and execute all cells.
+
+---
+
+## Author
+
+Shaikh Irshad

@@ -1,0 +1,71 @@
+## 🚀 How to Run the Project
+
+### Prerequisites
+
+* Python 3.9 or above
+* Google Colab or Jupyter Notebook
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Credit-Card-Fraud-Detection.git
+cd Credit-Card-Fraud-Detection
+```
+
+### 2. Download the Dataset
+
+Download the Credit Card Fraud Detection dataset from Kaggle:
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+Extract the downloaded ZIP file and place `creditcard.csv` in the project directory.
+
+### 3. Install Required Libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install the required packages manually:
+
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn scipy joblib
+```
+
+### 4. Open the Notebook
+
+Open the Jupyter notebook or upload the notebook to Google Colab.
+
+### 5. Update the Dataset Path
+
+If using Google Colab, upload `creditcard.csv` and update the path if necessary:
+
+```python
+df = pd.read_csv("creditcard.csv")
+```
+
+### 6. Run the Notebook
+
+Execute all cells in sequence to:
+
+* Load and preprocess the dataset.
+* Perform exploratory data analysis.
+* Scale the features.
+* Train the Isolation Forest model.
+* Detect anomalous transactions.
+* Evaluate the model using the actual fraud labels.
+
+## Project Workflow
+
+Dataset
+→ Data Preprocessing
+→ Exploratory Data Analysis
+→ Feature Scaling
+→ Isolation Forest
+→ Anomaly Detection
+→ Model Evaluation
+→ Fraud Prediction
+
+## Output
+
+The model identifies anomalous transactions and classifies them as potential fraud while demonstrating the effectiveness of unsupervised anomaly detection for highly imbalanced financial data.
